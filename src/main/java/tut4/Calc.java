@@ -6,7 +6,7 @@ public class Calc{
 		return A + B;
 	}
 	public static int Subtract(int A, int B){
-		return A + B;
+		return A - B;
 	}
 	
 }
