@@ -16,7 +16,7 @@ public class TestCalc {
 	public void testSubtract(){
 		int A = 5;
 		int B = 5;
-		int answer = A + B;
+		int answer = A - B;
 		assertEquals(Calc.Subtract(A,B), answer);
 	}
 }
