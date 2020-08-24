@@ -12,7 +12,7 @@ public class TestCalc {
 		int answer = A + B;
 		assertEquals(Calc.Add(A,B), answer);
 	}
-	
+	@Test
 	public void testSubtract(){
 		int A = 5;
 		int B = 5;
