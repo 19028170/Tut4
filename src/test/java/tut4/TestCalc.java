@@ -13,4 +13,10 @@ public class TestCalc {
 		assertEquals(Calc.Add(A,B), answer);
 	}
 	
+	public void testSubtract(){
+		int A = 5;
+		int B = 5;
+		int answer = A + B;
+		assertEquals(Calc.Subtract(A,B), answer);
+	}
 }
